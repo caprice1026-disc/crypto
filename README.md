@@ -1,0 +1,3 @@
+# crypto
+ミスが分かんねえ
+多分Javascriptのif else辺りが間違ってるのでミス見つけたら教えてほしい
