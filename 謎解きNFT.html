@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+     <p>問題文とかを入力</p>
+     <p><lavel>答えを入力：<input type="text" size="60" id="answar"></lavel>
+     <input type="button" value="check" id="checkbutton" onClick="check();">
+     </p>
+      <p id="trueorfalse"></p>
+
+       <script>
+         //答えを''内に入力
+         let result = document.getElementById('answar');
+         //ボタンクリック時のイベント
+         function check()
+            if (result === "seikai"){
+            alert('正解です');
+         }else
+            { alert('不正解です');  
+         }
+        </script>
+  </body>
+</html>
